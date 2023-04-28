@@ -108,7 +108,10 @@ const Home = () => {
               return (
                 <>
                   <div className="note">
-                    <p>{notes.note.slice(0, 100)}...</p>
+                    <p>
+                      {notes.note}
+                      ...
+                    </p>
                   </div>
                 </>
               );
